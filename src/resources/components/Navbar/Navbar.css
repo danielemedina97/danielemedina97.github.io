@@ -1,0 +1,29 @@
+
+
+#navbar{
+    
+    border-bottom: thick double rgb(0, 255, 42);
+    border-style: solid;
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+    background-image: linear-gradient(to right, rgb(197, 128, 0), rgb(230, 130, 0));
+}
+
+#navbar-options {
+    list-style-type: none;
+    text-align: left;
+    
+}
+
+#navbar-options li {
+    display: inline-block;
+    padding: 0px 50px 0px 0px;
+    font-weight: bold;
+}
+
+
+#navbar-options li a{
+    text-decoration: none;
+    color: rgb(66, 231, 60);
+    
+}

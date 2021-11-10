@@ -1,23 +1,35 @@
 import logo from './logo.svg';
 import './App.css';
+import {useEffect} from 'react';
+import Navbar from './resources/components/Navbar/Navbar';
+import selfImage from './resources/images/me.jpg'
 
 function App() {
+  useEffect(() => {
+    document.title = "Daniel's Portfolio";
+    
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+
+      {/*Navbar*/}
+      <Navbar/>
+
+      {/*Portfolio Introduction*/}
+      <div id="portfolio-intro">
+        <table id="portfolio-intro-info">
+          <tr>
+            <th id="about-me-th">
+              About Me
+            </th>
+          </tr>
+          <tr>
+            <td><img id="about-me-pic" src={selfImage} alt="Graduation picture of myself"/></td>
+           </tr>
+        </table>
+      </div>
     </div>
   );
 }
