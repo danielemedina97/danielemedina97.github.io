@@ -19,7 +19,11 @@
   padding-top: 25px;
 }
 
-#portfolio-intro #about-me-th{
+#portfolio-intro-info{
+  margin: 0 auto;
+}
+
+#portfolio-intro th{
   font-size: 50px;
   color: rgb(0, 255, 42);
   font-weight: bold;
@@ -30,8 +34,29 @@
      1px 1px 0 #000;
 }
 
+#me-th{
+  padding-right: 100px;
+}
+#about-me-pic-td{
+  padding-right: 100px;
+}
+
+#about-me-th{
+  /*padding: 0px 200px;*/
+}
+
+#about-me-button{
+  font-size: 50px;
+  font-weight: bold;
+  background-image: url('./resources/images/button.png');
+}
+
 #portfolio-intro #about-me-pic{
-  margin: 25px 0px;
-  filter: drop-shadow(16px 16px 10px black);
+  padding: 50px;
   
+}
+
+ReactCardFlip{
+  background-color: white;
+  height: 100px;
 }
