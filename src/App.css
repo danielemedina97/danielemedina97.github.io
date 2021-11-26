@@ -50,3 +50,20 @@
   margin: 0 13.5%;
 }
 
+.projects {
+  background-color: rgb(10, 204, 75);
+  height: 550px;
+  margin: 170px 0px;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+.projects-items li{
+  display: inline-block;
+  font-weight: bold;
+  list-style-type: none;
+  margin: 0 13.5%;
+}
+

@@ -30,6 +30,14 @@ function App() {
             <li> <a href="https://www.linkedin.com/in/daniel-medina-178638183/"><img src={LinkedInIcon} id="linkedin-icon"/> </a></li>
           </ul>
      </div>
+
+     <div className="projects">
+       <p>Projects</p>
+          <ul className= "projects-items">
+            <li> <a href="https://github.com/danielemedina97" target="_blank"><img src={GitHubIcon} id="github-icon"/> </a></li>
+            <li> <a href="https://www.linkedin.com/in/daniel-medina-178638183/"><img src={LinkedInIcon} id="linkedin-icon"/> </a></li>
+          </ul>
+     </div>
     </div>
     </div>
   );
