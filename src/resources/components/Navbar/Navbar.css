@@ -1,14 +1,15 @@
 
 
 #navbar{
-    padding: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     margin: 0px;
-    font-size: 45px;
+    font-size: 50px;
     text-align: center;
 }
 
 #navbar-options {
     list-style-type: none;
+    text-align: center;
 }
 
 #navbar-options li {
@@ -20,7 +21,18 @@
 
 #navbar-options li a{
     text-decoration: none;
-    color: white;
+    color: rgb(27, 2, 48);
     font-weight: bold;
-    text-shadow: 0 0 3px #0e0000, 0 0 5px #00000c;
+
 }
+
+#github-icon {
+    width:200px;
+    height:200px;
+}
+
+#linkedin-icon {
+    width: 200px;
+    height: 200px;
+}
+

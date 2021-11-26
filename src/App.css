@@ -1,33 +1,52 @@
 .App {
+}
+
+
+.portfolio-intro {
+  background-color: rgb(10, 204, 75);
+  height: 550px;
+}
+
+#portfolio-intro-content {
+  margin: 70px 0px;
+}
+
+
+.portfolio-intro p{
+  margin: 0px 30%;
+  padding: 30px ;
+}
+
+#hello {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+
+#my-name {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+#aspiration {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.social-media {
+  background-color: rgb(10, 204, 75);
+  height: 550px;
+  margin: 170px 0px;
+  font-size: 50px;
+  font-weight: 700;
   text-align: center;
 }
 
-#portfolio-intro{
-  margin: 0 auto;
-  margin-bottom: 0px;
-  background-repeat: no-repeat;
-  margin-top: 0px;
-  line-height: 150px;
-  text-align: center;
+
+.social-media-options li{
+  display: inline-block;
   font-weight: bold;
-  font-size: 75px;
-  color: white;
-  text-shadow: 0 0 3px #0e0000, 0 0 5px #00000c;
-  animation-name: intro-fade-in;
-  animation-duration: 3s;
-
+  list-style-type: none;
+  margin: 0 13.5%;
 }
 
-#intro-degree{
-  
-}
-
-@keyframes intro-fade-in {
-  from {
-    opacity: 0;
-  }
-
-  to{
-    opacity: 1;
-  }
-}
