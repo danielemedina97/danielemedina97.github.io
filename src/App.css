@@ -5,17 +5,22 @@
   text-align: center;
 }
 
+.content {
+  margin: 0 auto;
+}
+
 #me-pic {
   margin: 50px 0px;
   text-align: left;
   box-shadow: 2px 2px 2px 2px black;
-  margin-right: 50px;
+  margin-right: 10%;
 }
 
 .intro-paragraph {
   float: right;
-  padding-right: 300px;
+  padding-right: 10%;
   padding-top: 50px;
+  color: white;
   
 }
 .intro-paragraph p{
@@ -23,5 +28,5 @@
   font-weight: 700;
   text-align: left;
   width: 500px;
-  text-shadow: 2px 2px 5px white;
+  text-shadow: 2px 2px 5px black;
 }

@@ -13,12 +13,12 @@ function App() {
     <div className="App">
       <Navbar/>
       <div className="portfolio-intro">
-        <img id="me-pic" src={Me}/>
-        <div className="intro-paragraph">
-          <p>Hello </p> 
-          <p> I am Daniel Medina </p> 
-          <p>An Aspiring Software Developer </p>
-        </div>
+          <img id="me-pic" src={Me}/>
+          <div className="intro-paragraph">
+            <p>Hello </p> 
+            <p> I am Daniel Medina </p> 
+            <p>An Aspiring Software Developer </p>
+          </div>
       </div>
     </div>
   );

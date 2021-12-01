@@ -16,6 +16,7 @@ h1 {
   display: inline-block;
   font-weight: bold;
   list-style-type: none;
-  margin: 50px 13.5%;
-  padding-bottom: 50px;
+  /* margin: 50px 13.5%; */
+  margin: 0 auto;
+  padding: 50px 150px 50px 150px;
 }

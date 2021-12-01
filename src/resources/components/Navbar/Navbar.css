@@ -3,7 +3,7 @@
 #navbar{
     padding: 0px 0px 0px 0px;
     margin: 0px;
-    font-size: 50px;
+    font-size: 35px;
     text-align: center;
     text-shadow: 10px 10px 10px rgb(250, 203, 203);
 }
@@ -15,7 +15,9 @@
 
 #navbar-options li {
     display: inline-block;
-    margin: 0px 100px 10px 100px;
+    /* margin: 0px 100px 10px 100px; */
+    margin: 0 auto;
+    padding: 0px 100px 10px 100px;
     font-weight: bold;
 }
 
