@@ -5,16 +5,8 @@
     font-size: 60px;
     font-weight: 700;
     text-align: center;
-    color: yellow;
+    color: white;
   }
-
-  #title {
-    font-size: 80px;
-    font-weight: 700;
-    padding-top: 50px;
-    text-shadow: 3px 3px 0px white;
-    color: brown;
-    }
 
   .first-project{
     padding-top: 50px;
