@@ -10,8 +10,9 @@ export default function Navbar() {
         <>
             <nav id="navbar"> 
                 <ul id = "navbar-options"> 
-                    <li><Link to="/"> Home </Link></li>
-                    <li><Link to="/expenses"> Expenses </Link></li>
+                    <li><a><Link to="/"> Home </Link></a></li>
+                    <li><a><Link to="/projects"> Projects </Link></a></li>
+                    <li><a><Link to="/social-media"> Social Media </Link></a></li>
                     <li><a href={Resume} target="_blank">Resume </a></li>
                 </ul>
             </nav>

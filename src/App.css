@@ -1,23 +1,35 @@
-.App {
-}
 
 
 .portfolio-intro {
   background-color: rgb(10, 204, 75);
-  height: 550px;
+  margin: 50px 0px;
+  text-align: center;
 }
 
-#portfolio-intro-content {
-  margin: 70px 0px;
+#me-pic {
+  margin: 50px 0px;
+  text-align: left;
+  /* padding-right: 100px; */
+  box-shadow: 2px 2px 2px 2px black;
+  margin-right: 50px;
 }
 
-
-.portfolio-intro p{
-  margin: 0px 30%;
-  padding: 30px ;
+.intro-paragraph {
+  float: right;
+  padding-right: 300px;
+  padding-top: 50px;
+  
+}
+.intro-paragraph p{
+  /* margin: 0px 30%; */
+  font-size: 50px;
+  font-weight: 700;
+  text-align: left;
+  width: 500px;
+  text-shadow: 2px 2px 5px white;
 }
 
-#hello {
+/* #hello {
   font-size: 50px;
   font-weight: 700;
 }
@@ -31,9 +43,9 @@
 #aspiration {
   font-size: 50px;
   font-weight: 700;
-}
+} */
 
-.social-media {
+/* .social-media {
   background-color: rgb(10, 204, 75);
   height: 550px;
   margin: 170px 0px;
@@ -48,33 +60,33 @@
   font-weight: bold;
   list-style-type: none;
   margin: 0 13.5%;
-}
+} */
 
-.projects {
+/* .projects {
   background-color: rgb(10, 204, 75);
   margin: 170px 0px;
   font-size: 60px;
   font-weight: 700;
   text-align: center;
-}
+} */
 
-.project{
+/* .project{
   margin: 75px 0px;
-}
+} */
 
-#compiler-project{
+/* #compiler-project{
   padding-bottom: 50px;
-}
+} */
 
-.projects h2{
+/* .projects h2{
   font-size: 44px;
-}
+} */
 
-.project-desc{
+/* .project-desc{
   font-size: 22px;
   width: 550px;
   text-align: left;
   padding-left: 50px;
-}
+} */
 
 

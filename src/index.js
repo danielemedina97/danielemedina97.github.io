@@ -4,13 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Projects from './resources/components/projects/Projects';
+import SocialMedia from './resources/components/social-media/SocialMedia'
 
 ReactDOM.render(
   <BrowserRouter>
   <React.StrictMode>
     <meta name="viewport" content="width=device-width"/>
     <Routes>
-      <Route path="/" element={<App/>}/>
+      <Route exact path="/" element={ <App/> }/>
+      <Route exact path="/projects" element={ <Projects/> }/>
+      <Route exaxt path="/social-media" element={ <SocialMedia/> }/>
     </Routes>
   </React.StrictMode>
   </BrowserRouter>,
