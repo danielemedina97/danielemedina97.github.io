@@ -1,10 +1,14 @@
 .social-media {
   background-color: rgb(10, 204, 75);
-  height: 550px;
   margin: 50px 0px;
-  font-size: 60px;
-  font-weight: 700;
   text-align: center;
+}
+
+h1 {
+  padding-top: 50px;
+  font-size: 80px;
+  font-weight: 700;
+  text-shadow: 3px 3px 0px white;
 }
 
 
@@ -13,4 +17,5 @@
   font-weight: bold;
   list-style-type: none;
   margin: 50px 13.5%;
+  padding-bottom: 50px;
 }
