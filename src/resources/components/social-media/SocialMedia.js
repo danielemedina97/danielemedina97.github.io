@@ -7,12 +7,12 @@ import LinkedInIcon from '../../images/linkedin-icon.png';
 export default function SocialMedia() {
     return (
         <>
-            <Navbar/> 
+            <header><Navbar/></header>
             <div className="social-media">
-                <ul className= "social-media-options">
-                    <li> <a href="https://github.com/danielemedina97" target="_blank"><img src={GitHubIcon} id="github-icon"/> </a></li>
-                    <li> <a href="https://www.linkedin.com/in/daniel-medina-178638183/"><img src={LinkedInIcon} id="linkedin-icon"/> </a></li>
-                </ul>
+                <a href="https://github.com/danielemedina97" target="_blank"><img src={GitHubIcon} class="social-media-icon 
+                github-icon"/> </a>
+                <a href="https://www.linkedin.com/in/daniel-medina-178638183/"><img src={LinkedInIcon} class="social-media-icon 
+                linkedin-icon"/> </a>
              </div>
        </>
     )

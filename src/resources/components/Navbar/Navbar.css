@@ -5,7 +5,7 @@
     margin: 0px;
     font-size: 35px;
     text-align: center;
-    text-shadow: 10px 10px 10px rgb(250, 203, 203);
+    text-shadow: 1px 1px 0px rgb(49, 47, 47);
 }
 
 #navbar-options {
@@ -24,7 +24,7 @@
 
 #navbar-options li a{
     text-decoration: none;
-    color: rgb(27, 2, 48);
+    color: rgb(68, 67, 68);
     font-weight: bold;
 
 }

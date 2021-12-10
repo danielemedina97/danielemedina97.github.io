@@ -1,6 +1,6 @@
 
 .projects {
-    background-color: rgb(10, 204, 75);
+    background-color: rgb(47, 150, 247);
     margin: 50px 0px;
     font-size: 60px;
     font-weight: 700;
@@ -28,7 +28,7 @@
     text-align: left;
     margin: 0 auto;
     padding-top: 50px;
-    color: white;
+    color: rgb(241, 239, 239);
   }
 
   #compiler-project {

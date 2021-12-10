@@ -1,8 +1,12 @@
 
-.portfolio-intro {
-  background-color: rgb(10, 204, 75);
+.portfolio-intro-container {
+  background-color: rgb(47, 150, 247);
   margin: 50px 0px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 12rem;
+  align-items: center;
 }
 
 .content {
@@ -11,22 +15,24 @@
 
 #me-pic {
   margin: 50px 0px;
-  text-align: left;
-  box-shadow: 2px 2px 2px 2px black;
-  margin-right: 10%;
+  /* text-align: left; */
+  box-shadow: 2px 2px 2px 2px rgb(90, 88, 88);
+  /* margin-right: 10%; */
+  border-radius: 2%;
 }
 
 .intro-paragraph {
-  float: right;
-  padding-right: 10%;
-  padding-top: 50px;
-  color: white;
-  
+
+  /* float: right; */
+  /* padding-right: 10%; */
+  /* padding-top: 50px; */
+  color: rgb(241, 239, 239);
+  text-shadow: 2px 2px 5px black;
 }
 .intro-paragraph p{
   font-size: 50px;
   font-weight: 700;
   text-align: left;
   width: 500px;
-  text-shadow: 2px 2px 5px black;
+  text-shadow: 2px 2px 5px blackgit;
 }

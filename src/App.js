@@ -11,8 +11,10 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar/>
-      <div className="portfolio-intro">
+        <header>
+          <Navbar/>
+        </header>
+      <div className="container portfolio-intro-container">
           <img id="me-pic" src={Me}/>
           <div className="intro-paragraph">
             <p>Hello </p> 
